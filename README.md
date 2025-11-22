@@ -19,6 +19,6 @@ python pitch_prediction.py
 Example Plots: Training vs Validation Loss, Prediction Accuracy by Pitch Type
 
 # Team Contribution
-Davian Buana - Implemented the LSTM model using the PyTorch library, evaluated the accuracy through visualization via confusion matrix and bar graphs.
-Mateo Henriquez - Designed the machine learning pipeline, assisted in the selection of the LSTM model after experimenting with various models. 
-Jung Hyun Park - Collected and organized the datasets, took charge of the preprocessing and data cleaning. 
+- Davian Buana: Implemented the LSTM model using the PyTorch library, evaluated the accuracy through visualization via confusion matrix and bar graphs.
+- Mateo Henriquez: Designed the machine learning pipeline, assisted in the selection of the LSTM model after experimenting with various models. 
+- Jung Hyun Park: Collected and organized the datasets, took charge of the preprocessing and data cleaning. 
