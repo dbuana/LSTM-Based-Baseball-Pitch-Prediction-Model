@@ -1,14 +1,14 @@
 # Title: LSTM-Based Baseball Pitch Prediction Model
 
 # Project Overview
-This project was a capstone assignment for ISC353 Topics in Information Science course at International Christian University (ICU) developed by a team of student developers. It aims to create a machine learning model that predicts the pithing types(Curveball, Fastball, Slider) based on the pre-pitch movement of the pitcher. Through analyzing the motion landmarks extracted from the videos, the LSTM (Long Short-Term Memory) neural network is trained to recognize the temporal patterns of the pitching types.
+This project was created as a capstone assignment for ISC353 Topics in Information Science course at International Christian University (ICU). It aims to create a machine learning model that predicts the different pitching types(Curveball, Fastball, Slider) based on the pre-pitch position of the pitcher extracted from multiple throwing clips. Using the motion landmarks, Long Short-Term Memory (LSTM) was then trained to track the temporal dependencies of the pitcher's movement sequence and classify the pitching type.
 
 # Hypothesis
-We can predict the type of pitch a pitcher will throw based on their pre-pitch motion.
+A pitcher's pre-throw motion consists of temporal patterns that can be used to predict the pitch type prior to throwing. 
 
 # Requirements
-Install these dependencies prior to running: pip install torch torchvision mediapipe numpy pandas matplotlib
-Link to the dataset: https://drive.google.com/drive/folders/1hXhuYaFO7BRnTka2cpRQDer6cmQ8bMcg?usp=sharing
+Necessary dependencies: pip install torch torchvision mediapipe numpy pandas matplotlib
+Dataset access: https://drive.google.com/drive/folders/1hXhuYaFO7BRnTka2cpRQDer6cmQ8bMcg?usp=sharing
 
 # Run
 python pitch_prediction.py
