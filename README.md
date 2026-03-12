@@ -15,11 +15,6 @@ on the corresponding pitching types:
 
 Dataset access: https://drive.google.com/drive/folders/1hXhuYaFO7BRnTka2cpRQDer6cmQ8bMcg?usp=sharing
 
-# Results Summary
-- The LSTM model successfully identified intricate details in the pitching motion.
-- The model achieved consistent prediction accuracy across validation samples, with clear accuracy in Fastballs and Curveballs. 
-Example Plots: Training vs Validation Loss, Prediction Accuracy by Pitch Type
-
 # Team Contribution
 **Davian Buana**
 - Implemented the neural network architecture using PyTorch.
