@@ -6,12 +6,14 @@ This project was created as a capstone assignment for ISC353 Topics in Informati
 # Hypothesis
 A pitcher's pre-throw motion consists of temporal patterns that can be used to predict the pitch type prior to throwing. 
 
-# Requirements
-- Necessary dependencies: pip install torch torchvision mediapipe numpy pandas matplotlib
-- Dataset access: https://drive.google.com/drive/folders/1hXhuYaFO7BRnTka2cpRQDer6cmQ8bMcg?usp=sharing
+# Dataset
+The dataset was manually created and consists of pitching videos used to extract pose landmarks which represents the body's movements overtime. Each sample contains data
+on the corresponding pitching types:
+- Curveballs
+- Fastballs
+- Sliders
 
-# Run
-python pitch_prediction.py
+Dataset access: https://drive.google.com/drive/folders/1hXhuYaFO7BRnTka2cpRQDer6cmQ8bMcg?usp=sharing
 
 # Results Summary
 - The LSTM model successfully identified intricate details in the pitching motion.
